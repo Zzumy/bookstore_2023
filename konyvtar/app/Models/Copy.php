@@ -9,10 +9,10 @@ class Copy extends Model
 {
     use HasFactory;
 
-    protected  $primaryKey = 'copy_id';
+    protected $primaryKey= "copy_id";
 
     protected $fillable = [
-        'user_id',
         'book_id',
+        'user_id',
     ];
 }

@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Str;
 
 /**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Book>
+ * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\book>
  */
 class BookFactory extends Factory
 {
@@ -20,7 +20,7 @@ class BookFactory extends Factory
         return [
             'author' => fake()->name(),
             'title' => Str::random(10),
-            'pieces' => rand(1, 50)
+            'pieces' => rand(0, 69420)
         ];
     }
 }
